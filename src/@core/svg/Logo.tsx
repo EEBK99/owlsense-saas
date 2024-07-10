@@ -26,9 +26,9 @@ const Logo = (props: SVGAttributes<SVGElement>) => {
           width='108'
           height='64'
           filterUnits='userSpaceOnUse'
-          color-interpolation-filters='sRGB'
+          colorInterpolationFilters='sRGB'
         >
-          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feFlood floodOpacity='0' result='BackgroundImageFix' />
           <feColorMatrix
             in='SourceAlpha'
             type='matrix'
@@ -49,8 +49,8 @@ const Logo = (props: SVGAttributes<SVGElement>) => {
           y2='-0.225725'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#383F4E' />
-          <stop offset='0.979167' stop-color='#4AE3CE' />
+          <stop stopColor='#383F4E' />
+          <stop offset='0.979167' stopColor='#4AE3CE' />
         </linearGradient>
       </defs>
     </svg>
